@@ -205,10 +205,6 @@ This project does not scrape Gumroad or call external SEO APIs. It generates str
 
 Use the output as a strong draft, then edit it with real product details, screenshots, proof, refund policy, and delivery specifics.
 
-## Promotion Kit
-
-Want to share the project? See [PROMOTION.md](PROMOTION.md) for launch posts, short descriptions, target communities, and submission copy.
-
 ## License
 
 MIT
