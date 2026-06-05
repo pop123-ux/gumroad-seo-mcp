@@ -2,10 +2,22 @@
 
 [![MCP](https://img.shields.io/badge/MCP-Compatible-blue)](https://modelcontextprotocol.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933)](https://nodejs.org)
 
 MCP server and CLI for Gumroad creators who sell digital products, templates, courses, guides, services, or asset packs.
 
 It helps generate Gumroad-ready product page SEO, buyer-focused descriptions, tags, FAQs, and launch copy without depending on a hosted API or account key.
+
+## Who It Is For
+
+- Gumroad sellers launching templates, guides, courses, prompt packs, plugins, or design assets
+- Indie hackers and creators who want better product page copy before launch
+- Claude Desktop and MCP users who want local SEO helpers without API keys
+- Digital product makers who need quick keyword ideas, FAQs, and channel copy
+
+## Why Use It
+
+Gumroad product pages need more than keywords. Buyers need to understand the outcome, what is included, who the product is for, and why it is worth buying now. Gumroad SEO MCP turns a rough product idea into a structured product page draft, then helps audit the page before launch.
 
 ## What It Does
 
@@ -23,6 +35,8 @@ It helps generate Gumroad-ready product page SEO, buyer-focused descriptions, ta
 ```bash
 npm install -g github:pop123-ux/gumroad-seo-mcp
 ```
+
+No external API key is required.
 
 ### Run the CLI
 
@@ -190,6 +204,10 @@ printf '{"jsonrpc":"2.0","id":1,"method":"tools/list"}\n' | node bin/gumroad-seo
 This project does not scrape Gumroad or call external SEO APIs. It generates structured recommendations locally from the product, audience, niche, and format you provide.
 
 Use the output as a strong draft, then edit it with real product details, screenshots, proof, refund policy, and delivery specifics.
+
+## Promotion Kit
+
+Want to share the project? See [PROMOTION.md](PROMOTION.md) for launch posts, short descriptions, target communities, and submission copy.
 
 ## License
 
