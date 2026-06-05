@@ -1,0 +1,51 @@
+{
+  "name": "gumroad-seo-mcp",
+  "version": "0.1.0",
+  "description": "MCP server and CLI for Gumroad creators who need SEO-ready product pages, launch copy, and keyword positioning.",
+  "type": "module",
+  "main": "mcp-server.js",
+  "bin": {
+    "gumroad-seo-mcp": "bin/gumroad-seo-mcp.js",
+    "gumroad-seo": "bin/gumroad-seo.js"
+  },
+  "scripts": {
+    "start": "node bin/gumroad-seo.js",
+    "lint": "node --check mcp-server.js && node --check bin/gumroad-seo.js && node --check bin/gumroad-seo-mcp.js && node --check scripts/validate-package-files.mjs",
+    "build": "node scripts/validate-package-files.mjs",
+    "test": "npm run lint && npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude-desktop",
+    "gumroad",
+    "gumroad-seo",
+    "seo",
+    "creator-tools",
+    "digital-products",
+    "product-optimization",
+    "launch-copy",
+    "content-generation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pop123-ux/gumroad-seo-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pop123-ux/gumroad-seo-mcp/issues"
+  },
+  "homepage": "https://github.com/pop123-ux/gumroad-seo-mcp#readme",
+  "author": "Pop123",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "files": [
+    "mcp-server.js",
+    "bin/gumroad-seo.js",
+    "bin/gumroad-seo-mcp.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
